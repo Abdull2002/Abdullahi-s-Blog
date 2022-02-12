@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* .Header-page{
+    width: 100%;
+    border: 10px solid black;    
+} */
+.Header-Page{
+     /* border: 1px solid red;  */
+    background-color: black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;  
+}
+#Hero-img{
+    width: 100%;
+    height: 700px;
+} 
+/* .Hero{
+    display: grid;
+    grid-template-columns: auto;
+} */
+.container{
+    position: relative;
+    text-align: center;
+}
+#centered {
+    position: absolute;
+    top: 20%;
+    left: 70%;   
+}
+#centered-right {
+    position: absolute;
+    top: 40%;
+    left: 70%;   
+} 
+#Xbox-Logo {
+    position: absolute;
+    top: 60%;
+    left: 10%;   
+} 
+#Nintendo-Logo{
+    position: absolute;
+    top: 20%;
+    left: 10%;     
+}
+#RockStar-Logo {
+    position: absolute;
+    top: 60%;
+    left: 0%;   
+} 
+#EA-Logo {
+    position: absolute;
+    top: 30%;
+    left: 30%;   
+} 
+#Sega-Logo {
+    position: absolute;
+    top: 50%;
+    left: 30%;   
+} 
+.Hero-Body {
+    height: 300px;
+    background-color: #e7e7e6;
+     /* border: 5px solid gold;  */
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+body{
+    background-color: black;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+a{
+    color: black;
+} 
+.center-img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
